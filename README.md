@@ -1,6 +1,5 @@
 # Build
-> cmake CMakeLists.txt
-> make
+> cmake CMakeLists.txt && make
   
 # Run
 > sudo ./hiload_nginx
