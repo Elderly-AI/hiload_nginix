@@ -1,0 +1,7 @@
+cmake-build-debug
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+tm_pool.cbp
+libhello.so
+
