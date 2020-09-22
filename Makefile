@@ -143,17 +143,17 @@ hello/fast:
 .PHONY : hello/fast
 
 #=============================================================================
-# Target rules for targets named hiload_nginix
+# Target rules for targets named hiload_nginx
 
 # Build rule for target.
-hiload_nginix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hiload_nginix
-.PHONY : hiload_nginix
+hiload_nginx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hiload_nginx
+.PHONY : hiload_nginx
 
 # fast build rule for target.
-hiload_nginix/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/build
-.PHONY : hiload_nginix/fast
+hiload_nginx/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/build
+.PHONY : hiload_nginx/fast
 
 hello.o: hello.c.o
 
@@ -162,7 +162,7 @@ hello.o: hello.c.o
 # target to build an object file
 hello.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/hello.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/hello.c.o
 .PHONY : hello.c.o
 
 hello.i: hello.c.i
@@ -172,7 +172,7 @@ hello.i: hello.c.i
 # target to preprocess a source file
 hello.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/hello.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/hello.c.i
 .PHONY : hello.c.i
 
 hello.s: hello.c.s
@@ -182,7 +182,7 @@ hello.s: hello.c.s
 # target to generate assembly for a file
 hello.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/hello.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/hello.c.s
 .PHONY : hello.c.s
 
 main.o: main.c.o
@@ -191,7 +191,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -200,7 +200,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -209,7 +209,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/main.c.s
 .PHONY : main.c.s
 
 mem_manager.o: mem_manager.c.o
@@ -218,7 +218,7 @@ mem_manager.o: mem_manager.c.o
 
 # target to build an object file
 mem_manager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/mem_manager.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/mem_manager.c.o
 .PHONY : mem_manager.c.o
 
 mem_manager.i: mem_manager.c.i
@@ -227,7 +227,7 @@ mem_manager.i: mem_manager.c.i
 
 # target to preprocess a source file
 mem_manager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/mem_manager.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/mem_manager.c.i
 .PHONY : mem_manager.c.i
 
 mem_manager.s: mem_manager.c.s
@@ -236,7 +236,7 @@ mem_manager.s: mem_manager.c.s
 
 # target to generate assembly for a file
 mem_manager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/mem_manager.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/mem_manager.c.s
 .PHONY : mem_manager.c.s
 
 queue.o: queue.c.o
@@ -245,7 +245,7 @@ queue.o: queue.c.o
 
 # target to build an object file
 queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/queue.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/queue.c.o
 .PHONY : queue.c.o
 
 queue.i: queue.c.i
@@ -254,7 +254,7 @@ queue.i: queue.c.i
 
 # target to preprocess a source file
 queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/queue.c.i
 .PHONY : queue.c.i
 
 queue.s: queue.c.s
@@ -263,7 +263,7 @@ queue.s: queue.c.s
 
 # target to generate assembly for a file
 queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/queue.c.s
 .PHONY : queue.c.s
 
 stack.o: stack.c.o
@@ -272,7 +272,7 @@ stack.o: stack.c.o
 
 # target to build an object file
 stack.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/stack.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/stack.c.o
 .PHONY : stack.c.o
 
 stack.i: stack.c.i
@@ -281,7 +281,7 @@ stack.i: stack.c.i
 
 # target to preprocess a source file
 stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/stack.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/stack.c.i
 .PHONY : stack.c.i
 
 stack.s: stack.c.s
@@ -290,7 +290,7 @@ stack.s: stack.c.s
 
 # target to generate assembly for a file
 stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/stack.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/stack.c.s
 .PHONY : stack.c.s
 
 tp_pool.o: tp_pool.c.o
@@ -299,7 +299,7 @@ tp_pool.o: tp_pool.c.o
 
 # target to build an object file
 tp_pool.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/tp_pool.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/tp_pool.c.o
 .PHONY : tp_pool.c.o
 
 tp_pool.i: tp_pool.c.i
@@ -308,7 +308,7 @@ tp_pool.i: tp_pool.c.i
 
 # target to preprocess a source file
 tp_pool.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/tp_pool.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/tp_pool.c.i
 .PHONY : tp_pool.c.i
 
 tp_pool.s: tp_pool.c.s
@@ -317,7 +317,7 @@ tp_pool.s: tp_pool.c.s
 
 # target to generate assembly for a file
 tp_pool.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginix.dir/build.make CMakeFiles/hiload_nginix.dir/tp_pool.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hiload_nginx.dir/build.make CMakeFiles/hiload_nginx.dir/tp_pool.c.s
 .PHONY : tp_pool.c.s
 
 # Help Target
@@ -329,7 +329,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hello"
-	@echo "... hiload_nginix"
+	@echo "... hiload_nginx"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"
