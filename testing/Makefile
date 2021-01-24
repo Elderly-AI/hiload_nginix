@@ -67,10 +67,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/awerkiler/CLionProjects/2/nginx_v4
+CMAKE_SOURCE_DIR = /home/awerkiler/CLionProjects/hiload_nginx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/awerkiler/CLionProjects/2/nginx_v4
+CMAKE_BINARY_DIR = /home/awerkiler/CLionProjects/hiload_nginx
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -88,8 +88,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/snap/clion/138/bin/cmake/linux/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(CMAKE_COMMAND) -E cmake_progress_start /home/awerkiler/CLionProjects/2/nginx_v4/CMakeFiles /home/awerkiler/CLionProjects/2/nginx_v4/testing//CMakeFiles/progress.marks
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awerkiler/CLionProjects/2/nginx_v4/CMakeFiles 0
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(CMAKE_COMMAND) -E cmake_progress_start /home/awerkiler/CLionProjects/hiload_nginx/CMakeFiles /home/awerkiler/CLionProjects/hiload_nginx/testing//CMakeFiles/progress.marks
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awerkiler/CLionProjects/hiload_nginx/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/clean
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/preinstall
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/preinstall
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 testing/CMakeFiles/testing.dir/rule:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/CMakeFiles/testing.dir/rule
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing/CMakeFiles/testing.dir/rule
 .PHONY : testing/CMakeFiles/testing.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ testing: testing/CMakeFiles/testing.dir/rule
 
 # fast build rule for target.
 testing/fast:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/build
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/build
 .PHONY : testing/fast
 
 testing.o: testing.c.o
@@ -150,7 +150,7 @@ testing.o: testing.c.o
 
 # target to build an object file
 testing.c.o:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/testing.c.o
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/testing.c.o
 .PHONY : testing.c.o
 
 testing.i: testing.c.i
@@ -159,7 +159,7 @@ testing.i: testing.c.i
 
 # target to preprocess a source file
 testing.c.i:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/testing.c.i
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/testing.c.i
 .PHONY : testing.c.i
 
 testing.s: testing.c.s
@@ -168,7 +168,7 @@ testing.s: testing.c.s
 
 # target to generate assembly for a file
 testing.c.s:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/testing.c.s
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(MAKE) $(MAKESILENT) -f testing/CMakeFiles/testing.dir/build.make testing/CMakeFiles/testing.dir/testing.c.s
 .PHONY : testing.c.s
 
 # Help Target
@@ -194,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/awerkiler/CLionProjects/2/nginx_v4 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/awerkiler/CLionProjects/hiload_nginx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
