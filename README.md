@@ -2,4 +2,4 @@
 > cmake CMakeLists.txt && make
   
 # Run
-> sudo ./hiload_nginx
+> ./nginx_v4
