@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nginx_v4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/awerkiler/CLionProjects/2/nginx_v4"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/awerkiler/CLionProjects/2/nginx_v4"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testing">
+				<Option output="/home/awerkiler/CLionProjects/2/nginx_v4/testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 testing"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testing/fast">
+				<Option output="/home/awerkiler/CLionProjects/2/nginx_v4/testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 testing/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/awerkiler/CLionProjects/2/nginx_v4"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nginx_v4">
+				<Option output="/home/awerkiler/CLionProjects/2/nginx_v4/nginx_v4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 nginx_v4"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nginx_v4/fast">
+				<Option output="/home/awerkiler/CLionProjects/2/nginx_v4/nginx_v4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="."/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 nginx_v4/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/awerkiler/CLionProjects/2/nginx_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/main.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/clone_pool/clone_pool.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/clone_pool/clone_pool.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/clone_pool/shared_queue/shared_queue.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/clone_pool/shared_queue/shared_queue.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/handlers/handlers.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/handlers/handlers.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/config_parser/config_parser.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/config_parser/config_parser.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/files/files.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/files/files.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/manager.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/manager.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/permission/permission.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/permission/permission.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/shared_hash_table/shared_hash_table.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/manager/shared_hash_table/shared_hash_table.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/server.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/server/server.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/testing/testing.c">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/testing/testing.h">
+			<Option target="testing"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/macros/macros.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/properties/properties.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/request_parser/request_parser.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/request_parser/request_parser.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/response_constructor/response_constructor.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/response_constructor/response_constructor.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/utilities/utilities.c">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/utils/utilities/utilities.h">
+			<Option target="nginx_v4"/>
+		</Unit>
+		<Unit filename="/home/awerkiler/CLionProjects/2/nginx_v4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
